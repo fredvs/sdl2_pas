@@ -19,12 +19,8 @@ order16=0
 order17=0
 order18=0
 [projectoptions]
-projectdir=/home/fred/sdl2_pas/src
-projectfilename=/home/fred/sdl2_pas/src/PureSDL2Demo3.prj
 findinfiledialog=93
  [findinfileadialogfo.dir]
- filenames=1
-  /home/fred/gork_sdl/sdl2-pas/
  filenamescust=0
  filecolwidth=174
  x=450
@@ -43,23 +39,6 @@ findinfiledialog=93
  coldatewidth=119
  splitterplaces=249
  splitterlateral=126
- lastdir=/home/fred/gork_sdl/sdl2-pas/
- filehistory=15
-  /home/fred/gork_sdl/sdl2-pas/
-  /home/fred/mse_sld2/
-  /home/fred/gork_sdl/
-  /home/fred/mseuniverse/sdl4msegui/
-  /home/fred/mseide-msegui_sdl/
-  /home/fred/mseide-msegui/
-  /home/fred/mseuniverse-main/
-  /C:/msegui/lib/common2/aggpas/
-  /C:/msegui/lib/common2/
-  /C:/msegui/lib/addon/repaz/
-  /C:/msegui/lib/common/
-  /home/wahono/msegui/lib/common2/
-  /C:/msegui/SDL/src/
-  /C:/msegui/lib/common-sdl/
-  /C:/msegui/SDL/include/
  filefilterindex=3
  filefilter="*.pas" "*.pp" "*.inc"
  [findinfileadialogfo.subdirs]
@@ -115,6 +94,25 @@ findinfiledialog=93
  y=466
  cx=339
  cy=347
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 finddialog=8
  [finddialogfo.selectedonly]
  value=0
@@ -434,8 +432,8 @@ dbfieldeditor=13
  wsize=0
  active=1
  visible=1
-mainfile=PureSDL2Demo3.pas
-targetfile=PureSDL2Demo3${EXEEXT}
+mainfile=PureSDL2Demo.pas
+targetfile=PureSDL2Demo${EXEEXT}
 messageoutputfile=
 makecommand=${COMPILER}
 makedir=
@@ -920,27 +918,13 @@ sigsettings=27
  30,30,T,F
 defaultmake=1
 [breakpoints]
-on=2
- -1
- 0
-path=2
- /C:/msegui/lib/common2/graphics/msegenericgdi.pas
- /home/fred/mse_sld2/testsdl/testsdl.pas
-line=2
- 1222
- 220
-address=2
- 4754492
- 0
-addbkpt=2
- 0
- 0
-ignore=2
- 0
- 0
-condition=2
- 
- 
+on=0
+path=0
+line=0
+address=0
+addbkpt=0
+ignore=0
+condition=0
 panels=1
  panel1
 units=
@@ -956,7 +940,6 @@ files=
  a=0,8228,6,Text Files
  )
 [componentstore]
-storedir=/home/fred/mseide-msegui_sdl/apps/ide/compstore/
 filename=
 [components]
 [selecteditpage]
@@ -996,12 +979,12 @@ findhistory=20
  gui_pastefromclipboard
 findoptions=1
 editpos=1
- 0,1
+ 13,5
 bookmarks0=0
 sourcefiles=1
- ${PROJECTDIR}/PureSDL2Demo3.pas
+ ${PROJECTDIR}/PureSDL2Demo.pas
 relpaths=1
- PureSDL2Demo3.pas
+ PureSDL2Demo.pas
 ismoduletexts=1
  0
 modules=0
@@ -1012,7 +995,7 @@ nomenumodules=0
 firsttab=0
 index=0
 [layout]
-windowlayout=556
+windowlayout=537
  [mainfo.basedock]
  splitdir=2
  useroptions=268450944
@@ -1486,28 +1469,9 @@ windowlayout=556
  [debuggerfo.edit_compiler]
  value=Pascal
  [debuggerfo.file_history]
- value=/home/fred/sdl2_pas/src/PureSDL2Demo3.pas
- history=20
-  /home/fred/sdl2_pas/src/PureSDL2Demo3.pas
-  /home/fred/sdl2_pas/PureSDL2Demo3.pas
-  /home/fred/gork_sdl/PureSDL2Demo3.pas
-  /home/fred/gork_sdl/sdl2-pas/sdl2.pas
-  /home/fred/gork_sdl/sdl2-pas/sdlpixels.inc
-  /home/fred/gork_sdl/PureSDL2Demo3.prj
-  /home/fred/gork_sdl/PureSDL2Demo.prj
-  /home/fred/gork_sdl/PureSDL2Demo.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/mseguiintf.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/sdl4msegui.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/sdl2_types.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/sdl_EventConsts.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesdlgdi.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintf1.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/mseuniintf.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msenoguiintf.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/mseguiintf.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintflinux.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfhlinux.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfwin32.inc
+ value=
+ history=1
+  
  [debuggerfo.project_options]
  value=1
  [debuggerfo.hints]

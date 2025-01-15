@@ -1,4 +1,4 @@
-program PureSDL2Demo3;
+program PureSDL2Demo;
 
 {$mode objfpc}{$H+}
 

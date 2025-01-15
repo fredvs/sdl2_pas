@@ -1433,7 +1433,7 @@ windowlayout=556
  [componentpalettefo]
  splitdir=0
  useroptions=268460139
- stackedunder=targetconsolefo
+ stackedunder=mainfo
  parent=
  mdistate=0
  nx=0
