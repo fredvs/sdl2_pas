@@ -19,8 +19,8 @@ order16=0
 order17=0
 order18=0
 [projectoptions]
-projectdir=/home/fred/sdl2_pas
-projectfilename=/home/fred/sdl2_pas/PureSDL2Demo3.prj
+projectdir=/home/fred/sdl2_pas/src
+projectfilename=/home/fred/sdl2_pas/src/PureSDL2Demo3.prj
 findinfiledialog=93
  [findinfileadialogfo.dir]
  filenames=1
@@ -996,7 +996,7 @@ findhistory=20
  gui_pastefromclipboard
 findoptions=1
 editpos=1
- 0,6
+ 0,1
 bookmarks0=0
 sourcefiles=1
  ${PROJECTDIR}/PureSDL2Demo3.pas
@@ -1054,8 +1054,8 @@ windowlayout=556
  ny=0
  ncx=0
  ncy=0
- x=215
- y=208
+ x=133
+ y=278
  cx=999
  cy=311
  rcx=0
@@ -1146,7 +1146,7 @@ windowlayout=556
  [projecttreefo]
  splitdir=0
  useroptions=268484715
- stackedunder=memoryfo
+ stackedunder=conflangfo
  parent=
  mdistate=3
  nx=0
@@ -1171,7 +1171,7 @@ windowlayout=556
  sorted=0
  col=1
  row=0
- rowheight=20
+ rowheight=17
  [stackfo]
  splitdir=0
  useroptions=268460137
@@ -1429,7 +1429,7 @@ windowlayout=556
  [componentpalettefo]
  splitdir=0
  useroptions=268460139
- stackedunder=targetconsolefo
+ stackedunder=mainfo
  parent=
  mdistate=0
  nx=0
@@ -1486,8 +1486,9 @@ windowlayout=556
  [debuggerfo.edit_compiler]
  value=Pascal
  [debuggerfo.file_history]
- value=/home/fred/sdl2_pas/PureSDL2Demo3.pas
+ value=/home/fred/sdl2_pas/src/PureSDL2Demo3.pas
  history=20
+  /home/fred/sdl2_pas/src/PureSDL2Demo3.pas
   /home/fred/sdl2_pas/PureSDL2Demo3.pas
   /home/fred/gork_sdl/PureSDL2Demo3.pas
   /home/fred/gork_sdl/sdl2-pas/sdl2.pas
@@ -1507,7 +1508,6 @@ windowlayout=556
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintflinux.inc
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfhlinux.inc
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfwin32.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfhwin32.inc
  [debuggerfo.project_options]
  value=1
  [debuggerfo.hints]

@@ -19,8 +19,8 @@ order16=0
 order17=0
 order18=0
 [projectoptions]
-projectdir=/home/fred/sdl2_pas
-projectfilename=/home/fred/sdl2_pas/SDL2BGRABitmapDemo.prj
+projectdir=/home/fred/sdl2_pas/src
+projectfilename=/home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.prj
 findinfiledialog=93
  [findinfileadialogfo.dir]
  filenames=1
@@ -235,7 +235,7 @@ options=114
  value=
  [projectoptionsfo.makegroupbox]
  firsttab=0
- index=3
+ index=2
  [projectoptionsfo.exceptionsgrid]
  propcolwidthref=740
  width0=47
@@ -440,9 +440,9 @@ messageoutputfile=
 makecommand=${COMPILER}
 makedir=
 unitdirs=3
- ${LCLDIR}/components/*
+ ./lcl-dep
  ./sdl2-pas
- ${BGRABITMAPDIR}/bgrabitmap
+ ./bgrabitmap
 unitpref=-Fu
 incpref=-Fi
 libpref=-Fl
@@ -451,7 +451,7 @@ targpref=-o
 befcommand=0
 aftcommand=0
 makeoptions=5
- -l -Mobjfpc -Sh -Fcutf8 -dusesdl
+ -l -Mobjfpc -Sh -Fcutf8
  -gl -O-
  -B
  -O2 -XX -Xs -CX
@@ -1000,7 +1000,7 @@ findhistory=20
  gui_pastefromclipboard
 findoptions=1
 editpos=1
- 0,131
+ 0,5
 bookmarks0=0
 sourcefiles=1
  ${PROJECTDIR}/SDL2BGRABitmapDemo.pas
@@ -1066,7 +1066,7 @@ windowlayout=556
  rcy=0
  wsize=0
  active=0
- visible=0
+ visible=1
  [threadsfo]
  splitdir=0
  useroptions=268451945
@@ -1150,7 +1150,7 @@ windowlayout=556
  [projecttreefo]
  splitdir=0
  useroptions=268484715
- stackedunder=memoryfo
+ stackedunder=conflangfo
  parent=
  mdistate=3
  nx=0
@@ -1433,7 +1433,7 @@ windowlayout=556
  [componentpalettefo]
  splitdir=0
  useroptions=268460139
- stackedunder=mainfo
+ stackedunder=targetconsolefo
  parent=
  mdistate=0
  nx=0
@@ -1490,8 +1490,9 @@ windowlayout=556
  [debuggerfo.edit_compiler]
  value=Pascal
  [debuggerfo.file_history]
- value=/home/fred/sdl2_pas/SDL2BGRABitmapDemo.pas
+ value=/home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.pas
  history=20
+  /home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.pas
   /home/fred/sdl2_pas/SDL2BGRABitmapDemo.pas
   /home/fred/sdl2_pas/PureSDL2Demo3.pas
   /home/fred/gork_sdl/PureSDL2Demo3.pas
@@ -1511,7 +1512,6 @@ windowlayout=556
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msenoguiintf.pas
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/mseguiintf.pas
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintflinux.inc
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfhlinux.inc
  [debuggerfo.project_options]
  value=1
  [debuggerfo.hints]
