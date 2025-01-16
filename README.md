@@ -10,7 +10,7 @@ Compile the programs source with:
 
 _________________
 
-For source using BGABitmap, compile it with:
+For source using BGRABitmap, compile it with:
 
  cd /directory/of/sdl2_pas
 
