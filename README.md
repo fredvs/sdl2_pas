@@ -6,7 +6,7 @@ Compile the programs source with:
 
  cd /directory/of/sdl2_pas/src
 
- fpc -B -FUunits -Fu./sdl2-pas nameofprogram.pas
+ fpc -Mobjfpc -B -FUunits -Fu./sdl2-pas nameofprogram.pas
 
 _________________
 
@@ -14,4 +14,4 @@ For source using BGRABitmap, compile it with:
 
  cd /directory/of/sdl2_pas/src
 
- fpc -B -FUunits -Fu./sdl2-pas -Fu./bgrabitmap -Fu./lcl-dep nameofprogram.pas
+ fpc -B -Mobjfpc -FUunits -Fu./sdl2-pas -Fu./bgrabitmap -Fu./lcl-dep nameofprogram.pas

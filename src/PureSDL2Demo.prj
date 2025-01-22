@@ -19,6 +19,8 @@ order16=0
 order17=0
 order18=0
 [projectoptions]
+projectdir=/home/fred/sdl2_pas/src
+projectfilename=/home/fred/sdl2_pas/src/PureSDL2Demo.prj
 findinfiledialog=93
  [findinfileadialogfo.dir]
  filenamescust=0
@@ -940,6 +942,7 @@ files=
  a=0,8228,6,Text Files
  )
 [componentstore]
+storedir=/home/fred/mseide-msegui_sdl/apps/ide/compstore/
 filename=
 [components]
 [selecteditpage]
@@ -979,7 +982,7 @@ findhistory=20
  gui_pastefromclipboard
 findoptions=1
 editpos=1
- 13,5
+ 0,2
 bookmarks0=0
 sourcefiles=1
  ${PROJECTDIR}/PureSDL2Demo.pas
@@ -995,7 +998,7 @@ nomenumodules=0
 firsttab=0
 index=0
 [layout]
-windowlayout=537
+windowlayout=538
  [mainfo.basedock]
  splitdir=2
  useroptions=268450944
@@ -1154,7 +1157,7 @@ windowlayout=537
  sorted=0
  col=1
  row=0
- rowheight=17
+ rowheight=20
  [stackfo]
  splitdir=0
  useroptions=268460137
@@ -1412,7 +1415,7 @@ windowlayout=537
  [componentpalettefo]
  splitdir=0
  useroptions=268460139
- stackedunder=mainfo
+ stackedunder=targetconsolefo
  parent=
  mdistate=0
  nx=0
@@ -1469,8 +1472,9 @@ windowlayout=537
  [debuggerfo.edit_compiler]
  value=Pascal
  [debuggerfo.file_history]
- value=
- history=1
+ value=/home/fred/sdl2_pas/src/PureSDL2Demo.pas
+ history=2
+  /home/fred/sdl2_pas/src/PureSDL2Demo.pas
   
  [debuggerfo.project_options]
  value=1

@@ -21,10 +21,10 @@ order18=0
 [projectoptions]
 projectdir=/home/fred/sdl2_pas/src
 projectfilename=/home/fred/sdl2_pas/src/EnhancedSDL2Demo.prj
-findinfiledialog=78
+findinfiledialog=79
  [findinfileadialogfo.dir]
  filenames=1
-  /home/fred/sdl2_pas/src/
+  /home/fred/ideu/
  filenamescust=0
  filecolwidth=174
  x=450
@@ -43,8 +43,9 @@ findinfiledialog=78
  coldatewidth=119
  splitterplaces=249
  splitterlateral=126
- lastdir=/home/fred/sdl2_pas/src/
- filehistory=0
+ lastdir=/home/fred/ideu/
+ filehistory=1
+  /home/fred/ideu/
  filefilterindex=3
  filefilter="*.pas" "*.pp" "*.inc"
  [findinfileadialogfo.subdirs]
@@ -72,8 +73,9 @@ findinfiledialog=78
   *.pas, *.inc
   *.pas *.inc
  [findinfileadialogfo.findtext]
- value=TSDL_Color
+ value=paramst
  history=20
+  paramst
   TSDL_Color
   IMG_Load
   SDLLibName
@@ -93,7 +95,6 @@ findinfiledialog=78
   killprocesstree
   SDL_mutexP
   mutex
-  SDL_
  [findinfileadialogfo]
  stackedunder=
  x=681
@@ -966,18 +967,23 @@ findhistory=20
  gui_sysdndreaddata
  gui_sysdndreadtex
 findoptions=1
-editpos=2
- 0,185
+editpos=3
+ 0,43
  0,-1073741823
+ 51,27
 bookmarks0=0
 bookmarks1=0
-sourcefiles=2
+bookmarks2=0
+sourcefiles=3
  ${PROJECTDIR}/EnhancedSDL2Demo.pas
  ${PROJECTDIR}/PureSDL2Demo.pas
-relpaths=2
+ ${PROJECTDIR}/SDL2BGRABitmapDemo.pas
+relpaths=3
  EnhancedSDL2Demo.pas
  PureSDL2Demo.pas
-ismoduletexts=2
+ SDL2BGRABitmapDemo.pas
+ismoduletexts=3
+ 0
  0
  0
 modules=0
@@ -1229,10 +1235,10 @@ windowlayout=556
  [breakpointsfo.bkptson]
  value=1
  [objectinspectorfo.grid]
- propcolwidthref=736
- width0=450
+ propcolwidthref=330
+ width0=202
  sortdescend0=0
- width1=280
+ width1=122
  sortdescend1=0
  [symbolfo]
  splitdir=0
@@ -1462,11 +1468,13 @@ windowlayout=556
  [debuggerfo.edit_compiler]
  value=Pascal
  [debuggerfo.file_history]
- value=/home/fred/sdl2_pas/src/EnhancedSDL2Demo.pas
+ value=/home/fred/ideu/src/ideusettings.mfm
  history=20
-  /home/fred/sdl2_pas/src/EnhancedSDL2Demo.pas
+  /home/fred/ideu/src/ideusettings.mfm
+  /home/fred/ideu_work/src/confideu.pas
   /home/fred/sdl2_pas/src/PureSDL2Demo.pas
   /home/fred/sdl2_pas/src/EnhancedSDL2Demo.prj
+  /home/fred/sdl2_pas/src/EnhancedSDL2Demo.pas
   /home/fred/mse_sld2/testsdl/testsdl.pas
   /home/fred/mse_sld2/testsdl/main.pas
   /home/fred/gorg64_work/src/yearlist.pas
@@ -1482,8 +1490,6 @@ windowlayout=556
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/sdl2_types.inc
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/sdl_EventConsts.inc
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesdlgdi.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintf1.pas
-  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/mseuniintf.pas
  [debuggerfo.project_options]
  value=1
  [debuggerfo.hints]

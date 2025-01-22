@@ -1000,7 +1000,7 @@ findhistory=20
  gui_pastefromclipboard
 findoptions=1
 editpos=1
- 0,5
+ 50,15
 bookmarks0=0
 sourcefiles=1
  ${PROJECTDIR}/SDL2BGRABitmapDemo.pas
@@ -1257,10 +1257,10 @@ windowlayout=556
  [breakpointsfo.bkptson]
  value=1
  [objectinspectorfo.grid]
- propcolwidthref=736
- width0=450
+ propcolwidthref=330
+ width0=202
  sortdescend0=0
- width1=280
+ width1=122
  sortdescend1=0
  [symbolfo]
  splitdir=0
@@ -1433,7 +1433,7 @@ windowlayout=556
  [componentpalettefo]
  splitdir=0
  useroptions=268460139
- stackedunder=mainfo
+ stackedunder=targetconsolefo
  parent=
  mdistate=0
  nx=0

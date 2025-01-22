@@ -21,9 +21,11 @@ var
   surface: PSDL_Surface;
   bgraBitmap, rotatedBitmap: TBGRABitmap;
   rotated_surface: PSDL_Surface;
+  thedir: string;
 begin
   // Load image with SDL2
-  surface := IMG_Load('/home/fred/gork_sdl/image.png');
+  thedir := IncludeTrailingBackslash(ExtractFilePath(ParamStr(0)));
+  surface := IMG_Load(pchar(thedir + 'image.png'));
   if surface = nil then
   begin
     WriteLn('Unable to load image! SDL_image Error: ', IMG_GetError());

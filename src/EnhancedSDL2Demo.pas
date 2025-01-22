@@ -59,8 +59,11 @@ end;
 procedure load_images;
 var
   image_surface: PSDL_Surface;
+  thedir: string;
 begin
-  image_surface := IMG_Load('image.png');
+  thedir := IncludeTrailingBackslash(ExtractFilePath(ParamStr(0)));
+  image_surface := IMG_Load(pchar(thedir + 'image.png'));
+ 
   if image_surface = nil then
   begin
     WriteLn('Unable to load image! SDL_image Error: ', IMG_GetError());
