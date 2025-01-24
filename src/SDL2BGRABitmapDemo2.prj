@@ -20,7 +20,7 @@ order17=0
 order18=0
 [projectoptions]
 projectdir=/home/fred/sdl2_pas/src
-projectfilename=/home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.prj
+projectfilename=/home/fred/sdl2_pas/src/SDL2BGRABitmapDemo2.prj
 findinfiledialog=93
  [findinfileadialogfo.dir]
  filenames=1
@@ -259,8 +259,8 @@ options=114
  index=2
  [projectoptionsfo]
  stackedunder=
- x=314
- y=143
+ x=421
+ y=257
  cx=800
  cy=571
 settaborder=5
@@ -434,8 +434,8 @@ dbfieldeditor=13
  wsize=0
  active=1
  visible=1
-mainfile=SDL2BGRABitmapDemo.pas
-targetfile=SDL2BGRABitmapDemo${EXEEXT}
+mainfile=SDL2BGRABitmapDemo2.pas
+targetfile=SDL2BGRABitmapDemo2${EXEEXT}
 messageoutputfile=
 makecommand=${COMPILER}
 makedir=
@@ -668,7 +668,7 @@ befcommandon=0
 makeoptionson=5
  63
  17
- 63
+ 59
  46
  4095
 compilerusedon=29
@@ -1000,12 +1000,12 @@ findhistory=20
  gui_pastefromclipboard
 findoptions=1
 editpos=1
- 0,15
+ 0,3
 bookmarks0=0
 sourcefiles=1
- /home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.pas
+ ${PROJECTDIR}/SDL2BGRABitmapDemo2.pas
 relpaths=1
- SDL2BGRABitmapDemo.pas
+ SDL2BGRABitmapDemo2.pas
 ismoduletexts=1
  0
 modules=0
@@ -1016,7 +1016,7 @@ nomenumodules=0
 firsttab=0
 index=0
 [layout]
-windowlayout=556
+windowlayout=586
  [mainfo.basedock]
  splitdir=2
  useroptions=268450944
@@ -1058,8 +1058,8 @@ windowlayout=556
  ny=0
  ncx=0
  ncy=0
- x=215
- y=208
+ x=210
+ y=325
  cx=999
  cy=311
  rcx=0
@@ -1150,7 +1150,7 @@ windowlayout=556
  [projecttreefo]
  splitdir=0
  useroptions=268484715
- stackedunder=conflangfo
+ stackedunder=componentpalettefo
  parent=
  mdistate=3
  nx=0
@@ -1175,7 +1175,7 @@ windowlayout=556
  sorted=0
  col=1
  row=0
- rowheight=17
+ rowheight=20
  [stackfo]
  splitdir=0
  useroptions=268460137
@@ -1238,7 +1238,7 @@ windowlayout=556
  [breakpointsfo]
  splitdir=0
  useroptions=268451947
- stackedunder=projecttreefo
+ stackedunder=conflangfo
  parent=
  mdistate=0
  nx=0
@@ -1361,9 +1361,9 @@ windowlayout=556
  ncx=0
  ncy=0
  x=0
- y=629
+ y=705
  cx=1417
- cy=190
+ cy=114
  rcx=0
  rcy=0
  [componentstorefo]
@@ -1433,7 +1433,7 @@ windowlayout=556
  [componentpalettefo]
  splitdir=0
  useroptions=268460139
- stackedunder=mainfo
+ stackedunder=targetconsolefo
  parent=
  mdistate=0
  nx=0
@@ -1491,10 +1491,15 @@ windowlayout=556
  value=Pascal
  [debuggerfo.file_history]
  value=/home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.pas
- history=20
+ history=50
   /home/fred/sdl2_pas/src/SDL2BGRABitmapDemo.pas
-  /home/fred/sdl2_pas/SDL2BGRABitmapDemo.pas
-  /home/fred/sdl2_pas/PureSDL2Demo3.pas
+  /home/fred/ideu_work/src/confideu.pas
+  /home/fred/sdl2_pas/src/PureSDL2Demo.pas
+  /home/fred/sdl2_pas/src/EnhancedSDL2Demo.prj
+  /home/fred/sdl2_pas/src/EnhancedSDL2Demo.pas
+  /home/fred/mse_sld2/testsdl/testsdl.pas
+  /home/fred/mse_sld2/testsdl/main.pas
+  /home/fred/gorg64_work/src/yearlist.pas
   /home/fred/gork_sdl/PureSDL2Demo3.pas
   /home/fred/gork_sdl/SDL2BGRABitmapDemo.prj
   /home/fred/gork_sdl/SDL2BGRABitmapDemo.pas
@@ -1512,6 +1517,31 @@ windowlayout=556
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msenoguiintf.pas
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/mseguiintf.pas
   /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintflinux.inc
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfhlinux.inc
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfwin32.inc
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintfhwin32.inc
+  /home/fred/mse_sld2/lib/common/kernel/sdl/sdl4msegui.pas
+  /home/fred/mse_sld2/lib/common/kernel/sdl/sdl2_types.inc
+  /home/fred/mse_sld2/lib/common/kernel/sdl/sdl_EventConsts.inc
+  /home/fred/mse_sld2/lib/common/kernel/sdl/msenoguiintf.pas
+  /home/fred/mse_sld2/project.lpr
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/sdl/msesysintf.pas
+  /home/fred/mseide-msegui_sdl/lib/common/sysutils/mseprocutils.pas
+  /home/fred/mseide-msegui_sdl/lib/common/sysutils/msesysdnd.pas
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/msesys.pas
+  /home/fred/mseide-msegui_sdl/lib/common/widgets/msewidgets.pas
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/mseclasses.pas
+  /home/fred/mseide-msegui_sdl/lib/common/graphics/msegdi32gdi.pas
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/msegui.pas
+  /home/fred/mseide-msegui_sdl/lib/common/graphics/msegenericgdi.pas
+  /home/fred/mse_sld2/lib/common/kernel/sdl/mseguiintf.pas
+  /home/fred/mse_sld2/lib/common/kernel/msegui.pas
+  /home/fred/mse_sld2/lib/common/kernel/mseclasses.pas
+  /home/fred/mse_sld2/lib/common/kernel/sdl/msesysintf.pas
+  /home/fred/mse_sld2/lib/common/kernel/sdl/msesysintflinux.inc
+  /home/fred/mse_sld2/lib/common/kernel/msesysintf.inc
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/msefileutils.pas
+  /home/fred/mseide-msegui_sdl/lib/common/kernel/msesysintf.inc
  [debuggerfo.project_options]
  value=1
  [debuggerfo.hints]
@@ -1529,7 +1559,7 @@ windowlayout=556
  x=0
  y=0
  cx=1417
- cy=564
+ cy=640
  rcx=0
  rcy=0
  [sourcefo.files_tab]
@@ -1570,7 +1600,7 @@ windowlayout=556
  x=0
  y=62
  cx=1417
- cy=564
+ cy=640
  rcx=0
  rcy=0
 [targetconsole]
